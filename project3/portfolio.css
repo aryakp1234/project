@@ -1,0 +1,121 @@
+.profile img {
+    border-radius: 50%;
+    /* text-align: center; */
+}
+
+.proname {
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    margin-left: 20px;
+    margin-top: 40px;
+    padding: 4px;
+
+}
+
+
+.wrapper {
+    display: inline-flex;
+}
+
+.wrapper .icon {
+    position: relative;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -moz-transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -ms-transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -o-transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+
+.wrapper .facebook:hover {
+    background: #3b5999;
+    color: #fff;
+}
+
+.wrapper .twitter:hover {
+    background: #46c1f6;
+    color: #fff;
+}
+
+.wrapper .instagram:hover {
+    background: #e1306c;
+    color: #fff;
+}
+
+.wrapper .whatsapp:hover {
+    background: rgb(53, 116, 53);
+    color: #fff;
+}
+
+.wrapper .linkedin:hover {
+    background: rgb(58, 58, 255);
+    color: #fff;
+}
+
+
+
+.personal {
+    color: white;
+    text-align: justify;
+    padding-left: 55px;
+    font-size: larger;
+}
+
+.copyright {
+    color: white;
+    padding-left: 150px;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.head1 {
+    text-align: center;
+    color: #24a8e0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.head2 {
+    text-align: center;
+    color: blanchedalmond;
+}
+
+.part1 {
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.part2 {
+    margin-left: 400px;
+}
+
+.head3 {
+    text-align:left;
+    color: rgb(5, 5, 0);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size:50px;
+}
